@@ -1,5 +1,16 @@
+import { Link, routes } from '@redwoodjs/router'
 const BlogLayout = ({ children }) => {
-  return <>{children}</>
-}
+    return (   <div>
+      <h1><Link to={routes.home()}>Horse Blog</Link></h1>
+  <nav>
+      <ul>
+        <li><Link to={routes.about()}>AboutPage</Link></li>
+      </ul>
 
-export default BlogLayout
+  </nav>
+  <main>{children}</main>
+    </div>
+    )
+    }
+
+  export default BlogLayout

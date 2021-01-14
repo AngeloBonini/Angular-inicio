@@ -2,16 +2,16 @@ import { Link, routes } from '@redwoodjs/router'
 
 const HomePage = () => {
   return (
-    <>
-      <h1>HomePage</h1>
-      <p>
-        Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
-      </p>
-      <p>
-        My default route is named <code>home</code>, link to me with `
-        <Link to={routes.home()}>Home</Link>`
-      </p>
-    </>
+    <div>
+      <h1><Link to={routes.home()}>Horse Blog</Link></h1>
+<nav>
+      <ul>
+        <li><Link to={routes.about()}>AboutPage</Link></li>
+      </ul>
+
+</nav>
+
+    </div>
   )
 }
 

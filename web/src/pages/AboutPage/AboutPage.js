@@ -11,6 +11,7 @@ const AboutPage = () => {
       </ul>
 
 </nav>
+<p> This is the about Page</p>
       {/* <p>
         Find me in <code>./web/src/pages/AboutPage/AboutPage.js</code>
       </p>

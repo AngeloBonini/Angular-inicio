@@ -10,7 +10,7 @@ const HomePage = () => {
       </ul>
 
 </nav>
-
+<p> This is the home Page</p>
     </div>
   )
 }
